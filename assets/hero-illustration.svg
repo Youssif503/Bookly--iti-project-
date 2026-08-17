@@ -1,0 +1,36 @@
+<svg viewBox="0 0 420 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of an open book, a plant in a vase, and a cup of coffee">
+  <ellipse cx="210" cy="310" rx="170" ry="16" fill="#0B3D4A" opacity="0.06"/>
+
+  <!-- stack of books under the cup -->
+  <rect x="270" y="255" width="90" height="14" rx="3" fill="#E0507D"/>
+  <rect x="275" y="241" width="80" height="14" rx="3" fill="#0B3D4A"/>
+  <rect x="268" y="227" width="94" height="14" rx="3" fill="#F7F1E8" stroke="#ECE4D8"/>
+
+  <!-- coffee saucer + cup -->
+  <ellipse cx="315" cy="230" rx="42" ry="9" fill="#0B3D4A" opacity="0.12"/>
+  <path d="M283 210 h64 a2 2 0 0 1 2 2 v4 c0 16 -15 28 -34 28 s-34 -12 -34 -28 v-4 a2 2 0 0 1 2 -2 z" fill="#E0507D"/>
+  <ellipse cx="315" cy="210" rx="32" ry="7" fill="#F49CB4"/>
+  <path d="M349 216 c14 -3 22 6 18 16 c-3 8 -13 11 -20 8" fill="none" stroke="#E0507D" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- vase with plant -->
+  <path d="M150 180 h34 l-6 74 a4 4 0 0 1 -4 4 h-14 a4 4 0 0 1 -4 -4 z" fill="#0E4B59"/>
+  <ellipse cx="167" cy="180" rx="19" ry="6" fill="#135A6B"/>
+  <path d="M167 178 C 150 150 150 120 140 95" fill="none" stroke="#3E7C55" stroke-width="4" stroke-linecap="round"/>
+  <path d="M167 178 C 178 145 175 115 190 90" fill="none" stroke="#3E7C55" stroke-width="4" stroke-linecap="round"/>
+  <path d="M167 178 C 165 140 167 110 167 80" fill="none" stroke="#4C9068" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#4C9068">
+    <ellipse cx="140" cy="93" rx="12" ry="6" transform="rotate(-30 140 93)"/>
+    <ellipse cx="190" cy="88" rx="12" ry="6" transform="rotate(25 190 88)"/>
+    <ellipse cx="167" cy="78" rx="10" ry="6" transform="rotate(-5 167 78)"/>
+    <ellipse cx="153" cy="115" rx="10" ry="5" transform="rotate(-40 153 115)"/>
+    <ellipse cx="180" cy="112" rx="10" ry="5" transform="rotate(35 180 112)"/>
+  </g>
+
+  <!-- open book -->
+  <path d="M40 235 C 75 220 105 220 135 233 L135 258 C 105 246 75 246 40 260 Z" fill="#FDFBF7" stroke="#ECE4D8"/>
+  <path d="M230 233 C 200 220 170 220 135 233 L135 258 C 170 246 200 246 230 260 Z" fill="#FFFFFF" stroke="#ECE4D8"/>
+  <path d="M55 232 C 78 224 100 224 120 233" fill="none" stroke="#ECE4D8" stroke-width="2"/>
+  <path d="M55 240 C 78 232 100 232 120 241" fill="none" stroke="#ECE4D8" stroke-width="2"/>
+  <path d="M150 232 C 173 224 195 224 215 233" fill="none" stroke="#ECE4D8" stroke-width="2"/>
+  <path d="M150 240 C 173 232 195 232 215 241" fill="none" stroke="#ECE4D8" stroke-width="2"/>
+</svg>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In — Bookly</title>
+<link rel="icon" href="data:,">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body data-page="login">
+
+<div id="navbar-mount"></div>
+
+<main class="auth-wrapper">
+  <div class="auth-card">
+    <img src="assets/hero-illustration.svg" alt="" class="auth-illustration" style="max-width: 180px;">
+    <div class="text-center mb-4">
+      <h3>Welcome Back!</h3>
+      <p class="text-muted">Sign in to continue to Bookly</p>
+    </div>
+
+    <div class="alert alert-danger d-none" id="loginAlert" role="alert"></div>
+
+    <form id="loginForm" novalidate>
+      <div class="mb-3">
+        <label for="loginIdentifier" class="form-label">Email or Username</label>
+        <input type="text" class="form-control" id="loginIdentifier" placeholder="Enter your email or username" required>
+      </div>
+      <div class="mb-2">
+        <div class="d-flex justify-content-between">
+          <label for="loginPassword" class="form-label">Password</label>
+          <a href="#" class="small btn-link-pink text-decoration-none">Forgot Password?</a>
+        </div>
+        <div class="input-group">
+          <input type="password" class="form-control" id="loginPassword" placeholder="Enter your password" required>
+          <button class="btn btn-outline-secondary toggle-password" type="button" data-target="#loginPassword"><i class="bi bi-eye"></i></button>
+        </div>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="rememberMe">
+        <label class="form-check-label small" for="rememberMe">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-pill-pink w-100 mb-3">Sign In</button>
+      <p class="text-center small mb-0">Don't have an account? <a href="register.html" class="btn-link-pink">Sign Up</a></p>
+    </form>
+  </div>
+</main>
+
+<div id="footer-mount"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/api.js"></script>
+<script src="js/favorites.js"></script>
+<script src="js/components.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
